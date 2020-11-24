@@ -1,0 +1,26 @@
+Nov 23, 2020 8:14:23 PM org.bukkit.plugin.PluginLogger log
+INFO: [Gravity] Initializing blockmap...
+Nov 23, 2020 8:14:23 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] GLASS
+Nov 23, 2020 8:14:23 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] OAK_PLANKS
+Nov 23, 2020 8:14:23 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Connecting to database at jdbc:sqlite:plugins\Gravity/chunkdata.db
+Nov 23, 2020 8:14:24 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] The driver name is SQLite JDBC
+Nov 23, 2020 8:14:24 PM org.bukkit.plugin.PluginLogger log
+INFO: [Gravity] God turned on gravity!
+Nov 23, 2020 8:16:01 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 23, 2020 8:16:01 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 23, 2020 8:16:01 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Chunk not loaded! CraftChunk{x=6z=6}
+Nov 23, 2020 8:16:01 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Creating Chunk CraftChunk{x=6z=6}
+Nov 23, 2020 8:16:21 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Created Chunk CraftChunk{x=6z=6}
+Nov 23, 2020 9:06:00 PM org.bukkit.plugin.PluginLogger log
+INFO: [Gravity] Disabling Gravity v1.0
+Nov 23, 2020 9:06:00 PM org.bukkit.plugin.PluginLogger log
+INFO: [Gravity] Gravity shutting down...

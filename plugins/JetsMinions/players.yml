@@ -1,0 +1,13 @@
+# 
+#  PlayerUUID
+#    Minion,world,xpos,ypos,zpos,yaw,health,worldforchest,xpos,ypos,zpos,stats,level
+ConfigVersion: 6.2.8
+Players:
+  c544b743-140c-4825-b63f-b353566ffc53: []
+  2164d11d-b199-33d0-b8ac-3fb2b07ab2b4:
+  - Crafter,world,-237,71,-121,0,20,null,0,0,0,0,1
+  - Crafter,world,-238,71,-120,270,8,null,0,0,0,238,1
+MinionUUIDs:
+  552bfc29-b1ec-4da1-95ac-1e80581b51d3: ''
+  021167e4-c9d3-4140-9fd6-1988241b4b60: ''
+  0fb8db02-34fd-4586-83f6-53e20a006762: ''

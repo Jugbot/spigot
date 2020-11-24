@@ -1,0 +1,26 @@
+Hooks:
+  UseWorldGuard: true
+  UseVault: true
+  UseASkyBlock: false
+  UseIslandWorld: false
+  UseTowny: false
+  UseAcidIsland: false
+  UseFactions: false
+  UseWildStacker: false
+  UseUltimateStacker: false
+  useMaxStacker: true
+  UseResidence: false
+  UsePlotSquared: false
+  UseLands: false
+  UseGriefPrevention: false
+  RedProtect: false
+  SuperiorSkyblock2: false
+  FabledSkyBlock: false
+  BentoBox: false
+  PreciousStones: false
+  CoreProtect: false
+  IridiumSkyblock: false
+  UseShopGUIPlus: false
+  UseEssentials: false
+  UseCMI: false
+  UseGUIShop: false

@@ -1,0 +1,14 @@
+[
+  {
+    "uuid": "2164d11d-b199-33d0-b8ac-3fb2b07ab2b4",
+    "name": "Jugbot",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "c544b743-140c-4825-b63f-b353566ffc53",
+    "name": "Jugbot",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  }
+]
