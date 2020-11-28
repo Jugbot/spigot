@@ -1,26 +1,437 @@
-Nov 23, 2020 8:14:23 PM org.bukkit.plugin.PluginLogger log
+Nov 26, 2020 4:56:31 PM org.bukkit.plugin.PluginLogger log
 INFO: [Gravity] Initializing blockmap...
-Nov 23, 2020 8:14:23 PM org.bukkit.plugin.PluginLogger log
+Nov 26, 2020 4:56:31 PM org.bukkit.plugin.PluginLogger log
 FINE: [Gravity] GLASS
-Nov 23, 2020 8:14:23 PM org.bukkit.plugin.PluginLogger log
+Nov 26, 2020 4:56:31 PM org.bukkit.plugin.PluginLogger log
 FINE: [Gravity] OAK_PLANKS
-Nov 23, 2020 8:14:23 PM org.bukkit.plugin.PluginLogger log
-FINE: [Gravity] Connecting to database at jdbc:sqlite:plugins\Gravity/chunkdata.db
-Nov 23, 2020 8:14:24 PM org.bukkit.plugin.PluginLogger log
+Nov 26, 2020 4:56:31 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Connecting to database at jdbc:sqlite:plugins/Gravity/chunkdata.db
+Nov 26, 2020 4:56:32 PM org.bukkit.plugin.PluginLogger log
 FINE: [Gravity] The driver name is SQLite JDBC
-Nov 23, 2020 8:14:24 PM org.bukkit.plugin.PluginLogger log
+Nov 26, 2020 4:56:32 PM org.bukkit.plugin.PluginLogger log
 INFO: [Gravity] God turned on gravity!
-Nov 23, 2020 8:16:01 PM org.bukkit.plugin.PluginLogger log
+Nov 26, 2020 4:58:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 4:58:20 PM org.bukkit.plugin.PluginLogger log
 FINE: [Gravity] Block Gravity
-Nov 23, 2020 8:16:01 PM org.bukkit.plugin.PluginLogger log
+Nov 26, 2020 4:58:20 PM org.bukkit.plugin.PluginLogger log
 FINE: [Gravity] Thread Started
-Nov 23, 2020 8:16:01 PM org.bukkit.plugin.PluginLogger log
-FINE: [Gravity] Chunk not loaded! CraftChunk{x=6z=6}
-Nov 23, 2020 8:16:01 PM org.bukkit.plugin.PluginLogger log
-FINE: [Gravity] Creating Chunk CraftChunk{x=6z=6}
-Nov 23, 2020 8:16:21 PM org.bukkit.plugin.PluginLogger log
-FINE: [Gravity] Created Chunk CraftChunk{x=6z=6}
-Nov 23, 2020 9:06:00 PM org.bukkit.plugin.PluginLogger log
-INFO: [Gravity] Disabling Gravity v1.0
-Nov 23, 2020 9:06:00 PM org.bukkit.plugin.PluginLogger log
-INFO: [Gravity] Gravity shutting down...
+Nov 26, 2020 4:58:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Chunk not loaded! CraftChunk{x=0z=0}
+Nov 26, 2020 4:58:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Creating Chunk CraftChunk{x=0z=0}
+Nov 26, 2020 4:58:22 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Created Chunk CraftChunk{x=0z=0}
+Nov 26, 2020 4:58:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 4:58:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=9, y=4, z=7},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 4:58:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 4:58:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 1
+Nov 26, 2020 5:00:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:00:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:00:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from STONE to AIR at 8, 2, 7
+Nov 26, 2020 5:00:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 9, 2, 7
+Nov 26, 2020 5:00:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from STONE to AIR at 9, 4, 7
+Nov 26, 2020 5:00:25 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:25 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=8, y=3, z=7},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 5:00:25 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:00:25 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 1
+Nov 26, 2020 5:00:31 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:00:31 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:31 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:00:31 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 2, 7
+Nov 26, 2020 5:00:31 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 9, 2, 4
+Nov 26, 2020 5:00:31 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from STONE to AIR at 8, 3, 7
+Nov 26, 2020 5:00:33 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:00:33 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:34 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:00:34 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:36 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:00:36 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:00:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:00:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:00:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 0
+Nov 26, 2020 5:00:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:00:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 4, 4
+Nov 26, 2020 5:00:40 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:40 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=8, y=4, z=4},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 5:00:40 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:00:40 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 1
+Nov 26, 2020 5:00:41 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:00:41 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:41 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:00:41 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 3, 4
+Nov 26, 2020 5:00:45 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:00:45 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:00:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 0
+Nov 26, 2020 5:00:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:00:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 4, 5
+Nov 26, 2020 5:00:51 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:00:51 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:55 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:00:55 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:00:55 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 0
+Nov 26, 2020 5:00:55 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:00:55 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from STONE to AIR at 8, 4, 4
+Nov 26, 2020 5:01:04 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:01:04 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=8, y=4, z=5},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 5:01:04 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:01:04 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 1
+Nov 26, 2020 5:03:53 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:03:53 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:03:53 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:03:53 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 3, 5
+Nov 26, 2020 5:03:53 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 4, 4
+Nov 26, 2020 5:03:53 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from STONE to AIR at 8, 4, 5
+Nov 26, 2020 5:03:55 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:03:55 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:03:56 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:03:56 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:03:57 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:03:57 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:03:58 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:03:58 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:04:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:04:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:04:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 0
+Nov 26, 2020 5:04:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:04:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 5, 4
+Nov 26, 2020 5:04:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 6, 4
+Nov 26, 2020 5:04:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 7, 4
+Nov 26, 2020 5:04:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 8, 4
+Nov 26, 2020 5:04:15 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:04:15 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:04:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:04:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:04:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 0
+Nov 26, 2020 5:04:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:04:20 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from STONE to AIR at 8, 6, 4
+Nov 26, 2020 5:04:32 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:04:32 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=8, y=7, z=4},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 5:04:32 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=8, y=8, z=4},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 5:04:32 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:04:32 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 2
+Nov 26, 2020 5:04:54 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:04:54 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:04:54 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:04:54 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 10, 2, 4
+Nov 26, 2020 5:04:54 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 6, 4
+Nov 26, 2020 5:04:54 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from STONE to AIR at 8, 8, 4
+Nov 26, 2020 5:05:07 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:05:07 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:05:07 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 0
+Nov 26, 2020 5:06:25 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:06:25 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:25 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:06:25 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from STONE to AIR at 8, 6, 4
+Nov 26, 2020 5:06:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=8, y=7, z=4},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 5:06:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:06:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 1
+Nov 26, 2020 5:06:42 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:42 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:42 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:06:42 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Chunk not loaded! CraftChunk{x=1z=0}
+Nov 26, 2020 5:06:42 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Creating Chunk CraftChunk{x=1z=0}
+Nov 26, 2020 5:06:44 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Created Chunk CraftChunk{x=1z=0}
+Nov 26, 2020 5:06:44 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:44 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:45 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:45 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:47 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:47 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:48 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:06:48 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:51 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:51 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:52 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:52 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:53 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:53 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:54 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:54 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:06:59 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:06:59 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:00 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:00 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:00 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:00 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:01 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:01 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:02 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:02 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:07 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:07 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:07 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:07 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:08 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:08 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:09 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:09 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:07:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 8, 6, 4
+Nov 26, 2020 5:07:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from STONE to AIR at 8, 7, 4
+Nov 26, 2020 5:07:29 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 15, 9, 6
+Nov 26, 2020 5:07:34 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:34 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=15, y=9, z=6},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 5:07:34 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:07:34 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 1
+Nov 26, 2020 5:07:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:07:39 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 15, 1, 6
+Nov 26, 2020 5:07:44 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:44 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=15, y=9, z=6},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 5:07:44 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:07:44 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 1
+Nov 26, 2020 5:07:46 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:07:46 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:46 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:07:46 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Change from AIR to STONE at 15, 2, 6
+Nov 26, 2020 5:07:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] CraftBlock{pos=BlockPosition{x=15, y=9, z=6},type=STONE,data=Block{minecraft:stone},fluid=net.minecraft.server.v1_16_R2.FluidTypeEmpty@36c54a56}
+Nov 26, 2020 5:07:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Finished
+Nov 26, 2020 5:07:50 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Blocks to fall: 1
+Nov 26, 2020 5:07:52 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:07:52 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:07:52 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:07:52 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:08:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:08:03 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:09:28 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Break Event
+Nov 26, 2020 5:09:28 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity
+Nov 26, 2020 5:09:28 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Thread Started
+Nov 26, 2020 5:09:28 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Chunk not loaded! CraftChunk{x=0z=1}
+Nov 26, 2020 5:09:28 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Creating Chunk CraftChunk{x=0z=1}
+Nov 26, 2020 5:09:30 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Created Chunk CraftChunk{x=0z=1}
+Nov 26, 2020 5:24:32 PM org.bukkit.plugin.PluginLogger log
+WARNING: [Gravity] Plugin Gravity v1.0 generated an exception while executing task 79
+java.lang.IllegalArgumentException: z out of range (expected 0-15, got 22)
+	at com.google.common.base.Preconditions.checkArgument(Preconditions.java:168)
+	at org.bukkit.craftbukkit.v1_16_R2.CraftChunk.validateChunkCoordinates(CraftChunk.java:333)
+	at org.bukkit.craftbukkit.v1_16_R2.CraftChunk.getBlock(CraftChunk.java:98)
+	at io.github.jugbot.graph.SubGraph.lambda$getIntegrityViolations$2(SubGraph.java:269)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:175)
+	at java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:193)
+	at java.util.ArrayList$ArrayListSpliterator.forEachRemaining(ArrayList.java:1384)
+	at java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:482)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:472)
+	at java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:546)
+	at java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
+	at java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:505)
+	at io.github.jugbot.graph.SubGraph.getIntegrityViolations(SubGraph.java:271)
+	at io.github.jugbot.ChunkProcessor.lambda$processChunks$0(ChunkProcessor.java:136)
+	at io.github.jugbot.util.AsyncBukkit$1.run(AsyncBukkit.java:30)
+	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftTask.run(CraftTask.java:81)
+	at org.bukkit.craftbukkit.v1_16_R2.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:54)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+
+Nov 26, 2020 5:36:42 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Place Event
+Nov 26, 2020 5:36:42 PM org.bukkit.plugin.PluginLogger log
+FINE: [Gravity] Block Gravity

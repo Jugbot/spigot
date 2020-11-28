@@ -10,3 +10,9 @@ buildNumber.properties
 # https://github.com/takari/maven-wrapper#usage-without-binary-jar
 .mvn/wrapper/maven-wrapper.jar
 .DS_Store
+*.class
+*.gz
+*.log
+world/
+world_nether/
+world_the_end/
