@@ -10,5 +10,11 @@
     "name": "Jugbot",
     "level": 4,
     "bypassesPlayerLimit": false
+  },
+  {
+    "uuid": "b8a46a69-6607-3aff-b774-3d477a0c0f81",
+    "name": "neiljojo",
+    "level": 4,
+    "bypassesPlayerLimit": false
   }
 ]

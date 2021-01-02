@@ -16,3 +16,6 @@ buildNumber.properties
 world/
 world_nether/
 world_the_end/
+logs/
+crash-reports/
+plugins/
