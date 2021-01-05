@@ -7,21 +7,10 @@ curl -z BuildTools.jar -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/Bu
 set /p Input=Enter the version: || set Input=latest
 del spigot*.jar
 del craftbukkit*.jar
-java -jar BuildTools.jar --rev %Input% --compile craftbukkit
-call mvn install:install-file ^
-   -Dfile=./craftbukkit-%Input%.jar ^
-   -DgroupId=org.bukkit ^
-   -DartifactId=craftbukkit ^
-   -Dversion=%Input% ^
-   -Dpackaging=jar ^
-   -DgeneratePom=true
 java -jar BuildTools.jar --rev %Input%
-call mvn install:install-file ^
-   -Dfile=./spigot-1.16.3.jar ^
-   -DgroupId=org.spigotmc ^
-   -DartifactId=spigot-api ^
-   -Dversion=1.16.3 ^
-   -Dpackaging=jar ^
-   -DgeneratePom=true
 copy /b .\spigot*.jar ..\spigot.jar
-pause
+cd BuildData/CraftBukkit
+mvn install
+cd ../..
+cd BuildData/Spigot/Spigot-Api
+mvn install

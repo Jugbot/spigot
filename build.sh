@@ -4,21 +4,7 @@ echo Enter the version:
 read Input
 rm spigot*.jar
 rm craftbukkit*.jar
-java -jar BuildTools.jar --rev $Input --compile craftbukkit
-mvn install:install-file \
-   -Dfile=./craftbukkit-$Input.jar \
-   -DgroupId=org.bukkit \
-   -DartifactId=craftbukkit \
-   -Dversion=$Input \
-   -Dpackaging=jar \
-   -DgeneratePom=true
 java -jar BuildTools.jar --rev $Input
-mvn install:install-file \
-   -Dfile=./spigot-${Input}.jar \
-   -DgroupId=org.spigotmc \
-   -DartifactId=spigot-api \
-   -Dversion=$Input \
-   -Dpackaging=jar \
-   -DgeneratePom=true
 cp ./spigot*.jar ../spigot.jar
-sleep
+(cd BuildData/CraftBukkit; mvn install)
+(cd BuildData/Spigot/Spigot-Api; mvn install)
