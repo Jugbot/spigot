@@ -6,8 +6,13 @@ del spigot*.jar
 del craftbukkit*.jar
 java -jar BuildTools.jar --rev %Input%
 copy /b .\spigot*.jar ..\spigot.jar
-cd BuildData/CraftBukkit
+
+cd Bukkit
+mvn install
+cd ..
+cd CraftBukkit
+mvn install
+cd ..
+cd Spigot/Spigot-Api
 mvn install
 cd ../..
-cd BuildData/Spigot/Spigot-Api
-mvn install

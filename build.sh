@@ -6,5 +6,7 @@ rm spigot*.jar
 rm craftbukkit*.jar
 java -jar BuildTools.jar --rev $Input
 cp ./spigot*.jar ../spigot.jar
-(cd BuildData/CraftBukkit; mvn install)
-(cd BuildData/Spigot/Spigot-Api; mvn install)
+
+(cd Bukkit; mvn install)
+(cd CraftBukkit; mvn install)
+(cd Spigot/Spigot-Api; mvn install)
