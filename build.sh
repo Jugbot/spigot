@@ -10,3 +10,13 @@ cp ./spigot*.jar ../spigot.jar
 (cd Bukkit; mvn install)
 (cd CraftBukkit; mvn install)
 (cd Spigot/Spigot-Api; mvn install)
+
+cd ../../plugin
+
+if [ ! -f ./pom.xml ]; then
+  (cd archetype; source generate.sh)
+fi
+
+
+IFS="."; arr=($Input); unset IFS
+mvn versions:set-property -Dproperty=spigot.api -DnewVersion=${arr[0]}.${arr[1]}

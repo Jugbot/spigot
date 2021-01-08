@@ -26,6 +26,5 @@ if not exist pom.xml (
 )
 
 for /f "tokens=1,2 delims=." %%a in ("%Input%") do (
-  echo %%a%%b
   mvn versions:set-property -Dproperty=spigot.api -DnewVersion=%%a.%%b
 )
