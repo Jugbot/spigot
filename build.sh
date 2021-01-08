@@ -1,9 +1,11 @@
+set -e 
+set -o pipefail
 cd BuildTools
 curl -z BuildTools.jar -o BuildTools.jar https://hub.spigotmc.org/jenkins/job/BuildTools/lastSuccessfulBuild/artifact/target/BuildTools.jar
 echo Enter the version: 
 read Input
-rm spigot*.jar
-rm craftbukkit*.jar
+rm -f spigot*.jar
+rm -f craftbukkit*.jar
 java -jar BuildTools.jar --rev $Input
 cp ./spigot*.jar ../spigot.jar
 
